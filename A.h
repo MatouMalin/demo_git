@@ -11,6 +11,8 @@ public:
 	 */
 	~A(void);
 
+	void setValue(int pValue);
+
 private:
 int mValue;
 	

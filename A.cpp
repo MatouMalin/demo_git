@@ -11,5 +11,10 @@ A::A(void)
 
 A::~A(void)
 {
-	
+
+}
+
+void A::setValue(int pValue)
+{
+	mValue = pValue;
 }
