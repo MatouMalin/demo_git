@@ -11,6 +11,8 @@ public:
 	 */
 	~A(void);
 
+	int getValue(void) const {return mValue;}
+
 private:
 int mValue;
 	
